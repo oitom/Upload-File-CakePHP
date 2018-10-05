@@ -1,0 +1,2 @@
+ab -wn1 -c1 -v4 -T "multipart/form-data; boundary=1234567890" -p C:/wamp/www/post_data.txt http://localhost:81/cakephp
+

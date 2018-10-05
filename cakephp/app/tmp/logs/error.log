@@ -1,0 +1,975 @@
+2014-11-26 21:34:14 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 21:37:00 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 21:37:00 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in [/var/www/cakephp/app/Controller/AppController.php, line 34]
+2014-11-26 21:37:00 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 34, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 34, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-26 21:37:06 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 21:37:06 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in [/var/www/cakephp/app/Controller/AppController.php, line 34]
+2014-11-26 21:37:06 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 34, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 34, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-26 21:37:23 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 21:39:31 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 21:44:17 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/index.php/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#6 {main}
+2014-11-26 21:44:22 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/index.php/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#6 {main}
+2014-11-26 21:44:22 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/index.php/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#6 {main}
+2014-11-26 21:46:18 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/index.php/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#4 {main}
+2014-11-26 21:46:19 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakephp/index.php/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#4 {main}
+2014-11-26 21:58:25 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:04:03 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:04:13 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:06:52 Error: [MissingControllerException] Controller class HelloController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/hello
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:06:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:06:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:06:52 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/favicon.ico
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:07:27 Error: [MissingControllerException] Controller class HelloController could not be found.
+Exception Attributes: array (
+  'class' => 'HelloController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/hello
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:07:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:07:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/img/css/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:09:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/favicon.ico
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:11:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:11:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:12:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:13:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:13:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:20:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:20:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:21:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:21:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:21:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:21:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:22:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:23:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:23:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:23:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:23:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:23:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:24:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:24:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:24:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/img/img/cake.power.gif
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:24:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:25:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:25:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:25:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2014-11-26 22:25:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/css/css/cake.generic.css
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#2 {main}
+2015-04-07 00:38:56 Error: [MissingControllerException] Controller class UploadController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#2 {main}
+2015-04-07 00:39:22 Error: [MissingViewException] View file "C:\wamp\www\cakephp\app\View\upload\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp\\app\\View\\upload\\index.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#6 {main}
+2015-04-07 00:39:24 Error: [MissingViewException] View file "C:\wamp\www\cakephp\app\View\upload\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakephp\\app\\View\\upload\\index.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#4 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#6 {main}
+2015-04-07 00:44:49 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(3524): ConnectionManager::getDataSource('default')
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1136): Model->setDataSource('default')
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(3551): Model->setSource('uploads')
+#4 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#5 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(1553): Model->schema()
+#6 C:\wamp\www\cakephp\app\Controller\UploadController.php(13): Model->create()
+#7 [internal function]: UploadController->index('upload')
+#8 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#9 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#11 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#13 {main}
+2015-04-07 00:51:52 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp\www\cakephp\app\Controller\UploadController.php, line 14]
+2015-04-07 00:51:52 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 14, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 14, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-07 00:54:22 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\cakephp\app\Controller\UploadController.php, line 12]
+2015-04-07 00:54:22 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\cak...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\cak...', 12, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\cak...', 12, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-09 22:14:35 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/teste2/teste-upload/cakephp/app/Controller/UploadController.php, line 3]
+2015-04-09 22:14:35 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /teste2/teste-upload/cakephp/
+Stack Trace:
+#0 /var/www/teste2/teste-upload/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/teste2...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/teste2...', 3, Array)
+#2 /var/www/teste2/teste-upload/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/teste2...', 3, Array)
+#3 /var/www/teste2/teste-upload/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-09 22:14:37 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/teste2/teste-upload/cakephp/app/Controller/UploadController.php, line 3]
+2015-04-09 22:14:37 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /teste2/teste-upload/cakephp/
+Stack Trace:
+#0 /var/www/teste2/teste-upload/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/teste2...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/teste2...', 3, Array)
+#2 /var/www/teste2/teste-upload/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/teste2...', 3, Array)
+#3 /var/www/teste2/teste-upload/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-28 02:21:49 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [C:\wamp\www\cakephp\app\Controller\UploadController.php, line 37]
+2015-04-28 02:21:49 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 37, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 37, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-28 02:22:27 Error: [NotFoundException] Error Processing Request, Max number files accepted is 3
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:22:53 Error: [NotFoundException] Error Processing Request
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:23:25 Error: [NotFoundException] Error Processing Request, Max number files accepted is 3
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:25:20 Error: [NotFoundException] Error Processing Request
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:25:50 Error: [NotFoundException] Error Processing Request
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:26:21 Error: [NotFoundException] Error Processing Request
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\app\Controller\UploadController.php(14): UploadComponent->Upload(Array)
+#1 [internal function]: UploadController->index('upload')
+#2 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UploadController), Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UploadController), Object(CakeRequest))
+#5 C:\wamp\www\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\cakephp\index.php(41): require('C:\\wamp\\www\\cak...')
+#7 {main}
+2015-04-28 02:32:22 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [C:\wamp\www\cakephp\app\Controller\UploadController.php, line 17]
+2015-04-28 02:32:22 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 17, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\cak...', 17, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
